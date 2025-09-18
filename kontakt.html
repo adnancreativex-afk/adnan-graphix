@@ -191,6 +191,23 @@ footer span {
     .glass-box h2 {font-size: clamp(2rem, 6vw, 2.5rem);}
     .glass-box p, .contact-form input, .contact-form textarea {font-size: clamp(1rem,2.5vw,1.1rem);}
 }
+
+/* --- Mobilna optimizacija za male ekrane --- */
+@media (max-width: 576px) {
+    .glass-box {
+        max-width: 90%;
+        padding: 25px 20px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .btn-custom {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
 </style>
 </head>
 <body>
@@ -283,6 +300,3 @@ form.addEventListener("submit", async function(e) {
 </script>
 </body>
 </html>
-
-
-
