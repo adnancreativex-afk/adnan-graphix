@@ -177,7 +177,7 @@ footer {
     background: rgba(10,25,47,0.95);
     color: #aaa;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     font-size: 0.85rem;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
@@ -194,22 +194,18 @@ footer span {
 
 /* --- Mobilna optimizacija za male ekrane --- */
 @media (max-width: 576px) {
-    .hero {
-        min-height: auto;        
-        padding: 120px 15px 50px 15px; /* povećan gornji padding da forma ne dodiruje navbar */
-    }
     .glass-box {
-        max-width: 95%;         
-        padding: 20px 15px;     
+        max-width: 90%;
+        padding: 25px 20px;
     }
     .contact-form input,
     .contact-form textarea {
-        font-size: 0.95rem;     
-        padding: 8px;           
+        font-size: 1rem;
+        padding: 10px;
     }
     .btn-custom {
-        font-size: 0.95rem;
-        padding: 8px;
+        font-size: 1rem;
+        padding: 10px;
     }
 }
 </style>
@@ -219,7 +215,7 @@ footer span {
 <!-- Navigacija -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">Adnan Graphix</a>
+    <a class="navbar-brand fw-bold" href="adnan.html">Adnan Graphix</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -304,5 +300,3 @@ form.addEventListener("submit", async function(e) {
 </script>
 </body>
 </html>
-
-
