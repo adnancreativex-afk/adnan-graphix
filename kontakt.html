@@ -195,12 +195,12 @@ footer span {
 /* --- Mobilna optimizacija za male ekrane --- */
 @media (max-width: 576px) {
     .hero {
-        min-height: auto;       /* oslobađa visinu */
-        padding: 50px 15px;     /* manji vertikalni razmak */
+        min-height: auto;        
+        padding: 120px 15px 50px 15px; /* povećan gornji padding da forma ne dodiruje navbar */
     }
     .glass-box {
-        max-width: 95%;         /* zauzima skoro cijeli ekran */
-        padding: 20px 15px;     /* manji padding */
+        max-width: 95%;         
+        padding: 20px 15px;     
     }
     .contact-form input,
     .contact-form textarea {
@@ -304,4 +304,3 @@ form.addEventListener("submit", async function(e) {
 </script>
 </body>
 </html>
-
